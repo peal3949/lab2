@@ -32,7 +32,7 @@ run: WordCount1.jar
 ## on your Hadoop / java setup
 ##
 HADOOP_V=3.3.4
-STREAM_JAR = /usr/local/hadoop-$(HADOOP_V)/share/hadoop/tools/lib/hadoop-streaming-$(HADOOP_V).jar
+STREAM_JAR = /usr/lib/hadoop/hadoop-streaming.jar
 
 stream:
 	-rm -rf stream-output
